@@ -1,0 +1,9 @@
+---
+spring:
+  application:
+    name: partridge-zuul-gateway
+  cloud:
+    config:
+      uri: "https://partridge-config-server.cfapps.io/"
+  profiles:
+    active: "prod"
